@@ -2784,6 +2784,7 @@ input, select, textarea {
 			}
 
 			.tiles article:before {
+				/*
 				-moz-transition: opacity 0.5s ease;
 				-webkit-transition: opacity 0.5s ease;
 				-ms-transition: opacity 0.5s ease;
@@ -2793,10 +2794,21 @@ input, select, textarea {
 				display: block;
 				height: 100%;
 				left: 0;
-				opacity: 0; /* 0.85; */
+				opacity: 0.85;
 				position: absolute;
 				width: 100%;
 				z-index: 2;
+				 */
+
+				background-color: rgba(36, 41, 67, 0.25);
+				content: '';
+				display: block;
+				height: 100%;
+				left: 0;
+				position: absolute;
+				top: 0;
+				width: 100%;
+				z-index: 1;
 			}
 
 			.tiles article:after {

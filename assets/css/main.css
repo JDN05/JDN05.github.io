@@ -2809,7 +2809,7 @@ input, select, textarea {
 				top: 0;
 				width: 100%;
 				z-index: 1;
-				opacity: 0;
+				opacity: 1;
 			}
 
 			.tiles article:hover:before {

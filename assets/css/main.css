@@ -2784,7 +2784,6 @@ input, select, textarea {
 			}
 
 			.tiles article:before {
-				
 				-moz-transition: opacity 0.5s ease;
 				-webkit-transition: opacity 0.5s ease;
 				-ms-transition: opacity 0.5s ease;
@@ -2810,6 +2809,7 @@ input, select, textarea {
 				top: 0;
 				width: 100%;
 				z-index: 1;
+				opacity: 0.5;
 			}
 
 			.tiles article:hover:before {

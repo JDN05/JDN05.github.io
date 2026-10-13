@@ -9,6 +9,23 @@
 		<title>jaden l. chen</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<style>
+			#backgroundVideo {
+				position: fixed;
+				right: 0;
+				bottom: 0;
+				min-width: 100%;
+				min-height: 100%;
+			}
+			.content {
+				 position: fixed;
+				 bottom: 0;
+				 background: rgba(0, 0, 0, 0.5);
+				 color: #f1f1f1;
+				 width: 100%;
+				 padding: 20px;
+			 }
+		</style>
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
@@ -41,16 +58,16 @@
 				<!-- Main -->
 					<div id="main">
 
-						<video autoplay muted loop id="myVideo">
+						<video autoplay muted loop id="backgroundVideo">
 							<source src="images/gamesreel.mp4" type="video/mp4">
 						</video>
+						<div class="content">
+							<h1>i create experiences.</h1>
+							<p>check out my game development profile below, or click <a href="https://jdn05.myportfolio.com/writing">here</a> for my writing.</p>
+						</div>
 						
 						<!-- Two -->
-						<section id="two">
-							<div class="inner">
-									My name is Jaden. I make stories. Check out my writing <a href="https://jdn05.myportfolio.com/writing">here</a>, or scroll down to see my games.
-							</div>
-						</section>
+						
 
 						<!-- One -->
 							<section id="one" class="tiles">
